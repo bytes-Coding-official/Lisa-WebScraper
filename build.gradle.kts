@@ -19,6 +19,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("org.projectlombok:lombok:+")
     implementation ("com.google.code.gson:gson:+")
+      implementation("org.apache.pdfbox:pdfbox:2.0.24")
     annotationProcessor("org.projectlombok:lombok:+")
     testCompileOnly("org.projectlombok:lombok:+")
     testAnnotationProcessor("org.projectlombok:lombok:+")
